@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', {
+    res.render('shop/index', {
         title: 'Shopping Cart',
         text: 'This is my text',
-    } );
+    });
 });
 
 module.exports = router;
