@@ -5,21 +5,21 @@ mongoose.connect('localhost:27017/shopping');
 
 var products = [
     new Product({
-        imagePath: 'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-        title: 'Gothic Video Game',
-        description: 'Awesome Game!!!!',
-        price: 10
+        imagePath: 'http://www.starwarsnewsnet.com/wp-content/uploads/2016/11/Rogue-One-1.png',
+        title: 'Rogue One',
+        description: '2016 ‧ Science fiction film/Action',
+        price: 35
     }),
     new Product({
-        imagePath: 'https://lh3.googleusercontent.com/-gqqyGnP_6eg/AAAAAAAAAAI/AAAAAAAAACI/-obQim1xyVM/photo.jpg',
-        title: 'Back To The Futur',
-        description: 'The original movie!!!!',
-        price: 10
+        imagePath: 'https://s-media-cache-ak0.pinimg.com/originals/1b/98/9c/1b989c7a9f3a45d6cd6f6ecea92091a1.jpg',
+        title: 'Quand Harry rencontre Sally',
+        description: '1989 ‧ Drame/Drame ‧ 1h 36m',
+        price: 9
     }),
     new Product({
-        imagePath: 'http://www.bowtiecinemas.com/wp-content/uploads/2014/04/016689h1.jpg',
-        title: 'E.T. Movie',
-        description: 'Great Movie!!!!',
+        imagePath: 'http://fr.web.img2.acsta.net/medias/03/86/14/038614_af.jpg',
+        title: 'Vous avez un message',
+        description: '1998 ‧ Drame/Film d\'amour ‧ 1h 59m',
         price: 10
     })
 ];
